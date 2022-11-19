@@ -1,0 +1,137 @@
+
+header {
+    padding-top: 100px;
+    height: 70px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.head-ul li:hover {
+    background-color: #458FF6;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.head-ul li {
+    display: inline-block;  
+    padding: 20px;
+    transition: all 0.9s ease;
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+.link-head:hover {
+    padding: 20px;
+
+    color: slategrey;
+    color: white;
+}
+
+.link-head {
+    text-decoration: none;
+    color: dimgray;
+}
+.head-right {
+    padding-left: 400px;
+} 
+.left:hover {
+    background-color: #458FF6;
+    border-radius: 20px;
+}
+.left {
+transition: all 1s ease; 
+padding: 70px;   
+}
+.content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.h1-p {
+    text-align: center;
+}
+.link-h1:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.link-h1 {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    background-color: #458FF6;
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+}
+.news {
+    text-align: center;
+    display: inline-block;
+}
+  hr {
+    width: 50px;
+  }
+  .h2-div:hover {
+    background-color: #458FF6;
+    border-radius: 10px;
+  }
+  .h2-div {
+    display: inline-block;
+   text-align: center;
+   margin-left: 250px;
+   transition: all 1s ease-in-out;
+   background-color: #fff;
+   
+
+  }
+  .inner {    
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  .inner-ul {
+    display: flex;
+  }
+  .inner-li:hover {
+    background-color: #458FF6;
+    border-radius: 10px;
+  }
+  .inner-li {
+    width: 380px;
+    height: 380px;
+    flex-wrap: wrap;
+    transition: all 1s ease-in-out;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+   
+    list-style-type: none;
+  }
+.inner-img  {
+    margin: 20px;
+}
+.link-more:hover {
+    background-color: #456fa6;
+    border-radius: 10px;
+    padding: 20px;
+}
+.link-more {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    transition: all 1s ease;
+    padding: 10px;
+    background-color: #458FF6;
+    border-radius: 10px;
+
+}
